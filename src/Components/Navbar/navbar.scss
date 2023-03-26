@@ -1,0 +1,124 @@
+:root{
+    --PrimaryColor:hsl(199, 100%, 33%); 
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right,hsl(187,85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: Ihsl(0, ex, 100%);
+    --blackColor: Ohs1(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: Irgb(190, 190, 190); 
+    --inputColor: Irgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 246);
+    --cardBG: rgb(225, 225, 235);
+  }
+
+  .header { 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--whiteColorDeam);
+    width: 100%;
+    padding: 1rem;
+    z-index: 2000;
+    align-items: flex-start;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, .904);
+    
+  
+
+    .logo{
+      color: var(--PrimaryColor);
+      font-weight: 600;
+      cursor: pointer;
+      align-items: center;
+      justify-content: space-between;
+
+       .icon{
+          font-size: 25px;
+          color: var(--SecondaryColor);
+          transform: translateY(5px);
+        } 
+    }
+
+  @media screen and (max-width: 768px) { 
+    .navBar{
+        position: fixed;
+        background: var(--whiteColorDeam);
+        height: max-content;
+        width: 80%;
+        border-radius: 1rem;
+        top: -500rem;
+        left: 50%;
+        padding: 1rem;
+        transform: translate(-50%);
+        z-index: 2000;
+        box-shadow: 0 2px 4px rgba(2, 15, 29, .904);
+        transition: .3s ease-in-out;
+    
+
+    .navLists{
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+        padding: .5rem 0;
+
+        .navItem{
+            padding: .5rem 0;
+
+            .navLink{
+                color: var(--textColor);
+                font-size: .9rem;
+                font-weight: 600;
+                &:hover{
+                    color: var(--PrimaryColor);
+                }
+            }
+        }
+
+        .btn{
+            margin-top: 1rem;
+        
+          a{
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--whiteColor);
+            color: white;
+            
+          }
+        }
+        
+        .closeNavbar{
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-size: 30px;
+            color: var(--PrimaryColor);
+            &:hover{
+                color: var(--SecondaryColor);
+            }
+        }
+     }
+    }
+
+    .activeNavbar{
+       top: 7rem;
+    }
+
+
+  }  
+  
+   .toggleNavbar{
+                  .icon {
+                    position: absolute;
+                    font-size: 25px;
+                    top: .9rem;
+                    right: 1.2rem;
+                    color: var(--PrimaryColor);
+                    font-weight: 600;
+                   }
+                      &:hover{
+                        columns: var(--SecondaryColor);
+                    }
+               }
+}
