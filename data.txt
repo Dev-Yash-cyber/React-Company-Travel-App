@@ -1,0 +1,78 @@
+const Data =[
+{
+ id:1,
+ imgSrc:1,
+ destTitle:'CN Tower',
+ location='Cananda',
+ grade='Broadcast and Telecommunication Tower',
+ fees='$559',
+ description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
+ After Burj Khalifa had been recognized by the Guinness World Records as the World's 
+ tallest freestanding structure.'
+}
+{
+ id:2,
+ imgSrc:2,
+ destTitle:'',
+ location='Norway',
+ grade='Broadcast and Telecommunication Tower',
+ fees='$559',
+ description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
+ After Burj Khalifa had been recognized by the Guinness World Records as the World's 
+ tallest freestanding structure.'
+}
+{
+ id:3,
+ imgSrc:3,
+ destTitle:'CN Tower',
+ location='Cananda',
+ grade='Broadcast and Telecommunication Tower',
+ fees='$559',
+ description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
+ After Burj Khalifa had been recognized by the Guinness World Records as the World's 
+ tallest freestanding structure.'
+}
+{
+ id:4,
+ imgSrc:4,
+ destTitle:'CN Tower',
+ location='Cananda',
+ grade='Broadcast and Telecommunication Tower',
+ fees='$559',
+ description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
+ After Burj Khalifa had been recognized by the Guinness World Records as the World's 
+ tallest freestanding structure.'
+}
+{
+ id:5,
+ imgSrc:5,
+ destTitle:'CN Tower',
+ location='Cananda',
+ grade='Broadcast and Telecommunication Tower',
+ fees='$559',
+ description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
+ After Burj Khalifa had been recognized by the Guinness World Records as the World's 
+ tallest freestanding structure.'
+}
+{
+ id:6,
+ imgSrc:6,
+ destTitle:'CN Tower',
+ location='Cananda',
+ grade='Broadcast and Telecommunication Tower',
+ fees='$559',
+ description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
+ After Burj Khalifa had been recognized by the Guinness World Records as the World's 
+ tallest freestanding structure.'
+}
+{
+ id:7,
+ imgSrc:7,
+ destTitle:'CN Tower',
+ location='Cananda',
+ grade='Broadcast and Telecommunication Tower',
+ fees='$559',
+ description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
+ After Burj Khalifa had been recognized by the Guinness World Records as the World's 
+ tallest freestanding structure.'
+}
