@@ -3,76 +3,102 @@ const Data =[
  id:1,
  imgSrc:1,
  destTitle:'CN Tower',
- location='Cananda',
- grade='Broadcast and Telecommunication Tower',
- fees='$559',
- description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
- After Burj Khalifa had been recognized by the Guinness World Records as the World's 
+ location:'Cananda',
+ grade:'Broadcast and Telecommunication Tower',
+ fees:'$580',
+ description:'The CN Tower is Tallest Freestanding Structure on land for over 30 years.
+ After Burj Khalifa had been recognized by the Guinness World Records as the Worlds 
  tallest freestanding structure.'
-}
+},
 {
  id:2,
  imgSrc:2,
- destTitle:'',
- location='Norway',
- grade='Broadcast and Telecommunication Tower',
- fees='$559',
- description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
- After Burj Khalifa had been recognized by the Guinness World Records as the World's 
- tallest freestanding structure.'
-}
+ destTitle:'The Land of Midnight Sun',
+ location:'Norway',
+ grade:'Norway experiences the natural phenomena called the midnight sun',
+ fees:'$950',
+ description:'The country, Norway has acquired the name of the Land of Midnight Sun, as      Norway experiences the natural phenomena called the midnight sun because some parts of the   country experience sunshine throughout the day. It is situated on the northern end of   Europe.'
+},
 {
  id:3,
  imgSrc:3,
- destTitle:'CN Tower',
- location='Cananda',
- grade='Broadcast and Telecommunication Tower',
- fees='$559',
- description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
- After Burj Khalifa had been recognized by the Guinness World Records as the World's 
- tallest freestanding structure.'
-}
+ destTitle:'Island',
+ location:'Fiji Island',
+ grade:'Fiji is a tropical island nation located in Oceania in the South Pacific Ocean',
+ fees:'$680',
+ description:'Fiji is a tropical island nation located in Oceania in the South Pacific Ocean and comprises an archipelago of more than 332 islands, 110 of which are permanently inhabited. Fiji is located about two-thirds of the way from Hawaii to New Zealand, and immediate neighbors include Vanuatu, Tonga, and Samoa.'
+},
 {
  id:4,
  imgSrc:4,
- destTitle:'CN Tower',
- location='Cananda',
- grade='Broadcast and Telecommunication Tower',
- fees='$559',
- description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
- After Burj Khalifa had been recognized by the Guinness World Records as the World's 
- tallest freestanding structure.'
-}
+ destTitle:'Leaning Tower of Pisa',
+ location:'Italy',
+ grade:'Broadcast and Telecommunication Tower',
+ fees:'$800',
+ description:'The Leaning Tower of Pisa is a medieval structure in Pisa, Italy, that is famous for the settling of its foundations, which by the late 20th century had caused it to lean about 15 feet (4.5 metres) from the perpendicular.'
+},
 {
  id:5,
  imgSrc:5,
- destTitle:'CN Tower',
- location='Cananda',
- grade='Broadcast and Telecommunication Tower',
- fees='$559',
- description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
- After Burj Khalifa had been recognized by the Guinness World Records as the World's 
- tallest freestanding structure.'
-}
+ destTitle:'Bali Handara Gate',
+ location:'Bali',
+ grade:'Handara Iconic Gate – The path way to serenity',
+ fees:'$800',
+ description:'If you come to Handara Golf and Resort, you must prepare your camera to take pictures of your every single moment you spend there, as you will see a lot of Instagram worthy places within the golf club & resort. One of them is the Balour Balinese gate of Handara-the path way to serenity. It has become a famous Instagramable spot in Bali.'
+},
 {
  id:6,
  imgSrc:6,
- destTitle:'CN Tower',
- location='Cananda',
- grade='Broadcast and Telecommunication Tower',
- fees='$559',
- description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
- After Burj Khalifa had been recognized by the Guinness World Records as the World's 
- tallest freestanding structure.'
-}
+ destTitle:'Palaces of Petra',
+ location:'Petra',
+ grade:'Petra is half-built, half-carved into the rock, and is surrounded by mountains 
+        riddled with passages and gorges',
+ fees:'$750',
+ description:'Inhabited since prehistoric times, this Nabataean caravan-city, situated between the Red Sea and the Dead Sea, was an important crossroads between Arabia, Egypt and Syria-Phoenicia. Petra is half-built, half-carved into the rock, and is surrounded by mountains riddled with passages and gorges. It is one of the world's most famous archaeological sites, where ancient Eastern traditions blend with Hellenistic architecture.'
+},
 {
  id:7,
  imgSrc:7,
- destTitle:'CN Tower',
- location='Cananda',
- grade='Broadcast and Telecommunication Tower',
- fees='$559',
- description='The CN Tower is Tallest Freestanding Structure on land for over 30 years.
- After Burj Khalifa had been recognized by the Guinness World Records as the World's 
- tallest freestanding structure.'
+ destTitle:'Cinque Terre National Park',
+ location:'Italy',
+ grade:'n 1997, UNESCO recognized Cinque Terre as a World Heritage site',
+ fees:'$600',
+ description:'In 1997, UNESCO recognized Cinque Terre as a World Heritage site: A remarkable cultural landscape created by human endeavor over a millennium in a rugged and dramatic natural environment. It represents the harmonious interaction between people and nature to produce a landscape of exceptional scenic quality.'
+},
+{
+ id:8,
+ imgSrc:8,
+ destTitle:'Taj Mahal',
+ location:'Delhi',
+ grade:'Taj Mahal is the jewel of Muslim art in India and one of the universally admired  masterpieces of the world's heritage.',
+ fees:'$500',
+ description:'The Taj Mahal is an ivory-white marble mausoleum on the south bank of the   Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal.'
+},
+{
+ id:9,
+ imgSrc:9,
+ destTitle:'Monument to Minin and Pozharsky',
+ location:'Moscow,Russia',
+ grade:'The Monument to Minin and Pozharsky is a bronze statue designed by Ivan Martos and located on the Red Square in Moscow, Russia, in front of Saint Basil's Cathedral.',
+ fees:'$950',
+ description:'The prince Dmitry Pozharsky and the merchant Kuzma Minin were the heroes of the 17th century war. They gathered the all-Russian volunteer army and expelled the Poles from the Moscow Kremlin. The monument was erected in 1818 soon after the victory over Napoleon, symbolizing the rise in patriotic consciousness.'
+},
+{
+ id:10,
+ imgSrc:10,
+ destTitle:'Spiti Valley',
+ location:'Himachal Pradesh,India',
+ grade:'Spiti Valley is famous for its rich floral and fauna.',
+ fees:'$700',
+ description:'Spiti valley is famous for its natural beauty and cultural heritage. Tabo monastery is one of the most prominent attractions in Spiti. The monasteries in Spiti are renowned for spectacular murals, ancient temples, and several stupas.'
+},
+{
+ id:11,
+ imgSrc:11,
+ destTitle:'Horseshoe Bend',
+ location:'Arizona',
+ grade:'Broadcast and Telecommunication Tower',
+ fees:'$1200',
+ description:The Colorado River started to cut through endless layers of rock, and when it ran into Horseshoe Bend, it creates this natural, sculptural landscape. The river eventually went around it, and now there is a 270-degree bend in the river which created the now-famous horseshoe shape.'
 }
+ ]

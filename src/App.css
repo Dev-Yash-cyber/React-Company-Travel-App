@@ -12,8 +12,8 @@
   --PrimaryColor:hsl(199, 100%, 33%); 
   --SecondaryColor: hsl(187, 85%, 43%);
   --gradientColor: linear-gradient(to right,hsl(187,85%, 43%), hsl(199, 100%, 33%));
-  --whiteColor: hsl(0, 0, 100%);
-  --blackColor: hs1(201, 33%, 16%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
   --textColor: hsl(240, 4%, 36%);
   --whiteColorDeam: hsl(0, 0%, 93%);
   --greyText: rgb(190, 190, 190); 
@@ -35,6 +35,7 @@ section{
 }
 
 .container{
+  padding-top: 2.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -80,6 +81,7 @@ section{
 .img, video{
   width: 100%;
   height: auto;
+  
 }
 
 input{

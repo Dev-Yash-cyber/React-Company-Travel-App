@@ -2,12 +2,12 @@
   --PrimaryColor:hsl(199, 100%, 33%);
   --SecondaryColor: hsl(187, 85%, 43%);
   --gradientColor: linear-gradient(to right,hsl(187,85%, 43%), hsl(199, 100%, 33%));
-  --whiteColor: Ihsl(0, ex, 100%);
-  --blackColor: Ohs1(201, 33%, 16%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
   --textColor: hsl(240, 4%, 36%);
   --whiteColorDeam: hsl(0, 0%, 93%);
-  --greyText: Irgb(190, 190, 190);
-  --inputColor: Irgb(239, 239, 239);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
   --bodyColor: rgb(240, 240, 246);
   --cardBG: rgb(225, 225, 235);
 }
@@ -81,9 +81,9 @@
   }
   .header .navBar .navLists .closeNavbar {
     position: absolute;
-    top: 1.5rem;
+    top: 0.2rem;
     right: 1.5rem;
-    font-size: 30px;
+    font-size: 40px;
     color: var(--PrimaryColor);
   }
   .header .navBar .navLists .closeNavbar:hover {
